@@ -1,0 +1,18 @@
+<ion-view view-title="Profile">
+    <ion-content class="has-header">
+        <div class="list card">
+            <div class="item">
+            
+                <h2>{{first_name}}</h2>
+                <h2>{{last_name}}</h2>
+                <h2>{{bio}}</h2>
+                <h2>{{id}}</h2>
+                <h2>{{middle_name}}</h2>
+                <button ng-click="getMyProfile()">Get My Profile</button>
+            </div>
+            <div class="item item-body">
+                <img src="http://graph.facebook.com/{{user.id}}/picture?width=270&height=270"/>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
